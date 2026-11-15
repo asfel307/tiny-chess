@@ -1,6 +1,6 @@
-[![make.fun](https://make.fun/c/tiny-chess-01/badge.svg)](https://make.fun/bounty/tiny-chess-01)
-[![make.fun rank](https://make.fun/c/tiny-chess-01/asfel307/tiny-chess/rank.svg)](https://make.fun/bounty/tiny-chess-01)
-[![make.fun reward](https://make.fun/c/tiny-chess-01/asfel307/tiny-chess/reward.svg)](https://make.fun/bounty/tiny-chess-01)
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/asfel307/tiny-chess/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/asfel307/tiny-chess/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
 # Tiny Chess
 
@@ -42,7 +42,7 @@ MAKEFUN_ENV_URL=http://127.0.0.1:8080 python3 main.py
 - Move generation verified: perft(1..4) from start = 20 / 400 / 8902 / 197281;
   Kiwipete perft(3) = 97862 (exact).
 - Tactics: Scholar's mate Qxf7#, back-rank Rd8, promotion axb8=Q — all found.
-- Speed: ~43,000 nodes/sec on this VM; node budget 30,000/move (~0.7 s/move).
+- Speed: ~43,000 nodes/sec on this VM; node budget 150,000/move (~0.7–4.3 s/move).
 
 ## License
 
